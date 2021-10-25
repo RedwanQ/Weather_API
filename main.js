@@ -30,6 +30,8 @@ button.addEventListener('click', () => {
                                     <h2> ${data.name} </h2> 
                                     <img src="https://image.flaticon.com/icons/png/512/35/35906.png"  style="width: 200px;" alt="">
                                     <li class="temp">Temp: ${data.main.temp}°F</li>
+                                    <li class="temp">Forecast: ${data.weather[0].main}</li>
+                                    <li class="temp">Weather Icon: ${data.weather[0].icon}</li>
                                     <li class="tempm">Temp Max: ${data.main.temp_max}°F</li>
                                     <li class="tempm">Temp Min: ${data.main.temp_min}°F</li>
                                     <li class="humidity">Humidity: ${data.main.humidity}%</li>
